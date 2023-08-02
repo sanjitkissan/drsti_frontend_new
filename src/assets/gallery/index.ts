@@ -85,5 +85,5 @@ export {default as Static_Media_Image30} from "./Static_Media_Image30.jpg"
 export {default as BannerImg} from "./bannerImg.svg"
 
 
-export {default as galleryBanner1} from "./galleryBanner1.jpg"
+export {default as galleryBanner1} from "./galleryBanner1.png"
 export {default as galleryBanner2} from "./galleryBanner2.jpg"
