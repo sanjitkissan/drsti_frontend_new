@@ -14,8 +14,8 @@ const [isOpen, setIsOpen] = useState<boolean>(false)
     const router = useRouter()
 
   return (
-    <>
-    <section className=' main-container w-full h-16 flex items-center justify-between bg-white lg:hidden sticky top-0 z-50 '>
+    <section className='w-full bg-white lg:hidden sticky top-0 z-50 block'>
+    <section className=' main-container w-full h-16 flex items-center justify-between  '>
         <div >
           <Link href={"/"}>
           <img src={Main_Logo.src} alt="" className='w-32 h-12' />
@@ -51,6 +51,6 @@ const [isOpen, setIsOpen] = useState<boolean>(false)
     </div>
     </Collapse>
     </section>
-    </>
+    </section>
   )
 }
