@@ -46,7 +46,7 @@ function About() {
         ))
       }
     </Head>
-        <MainLayout title="drsti-about">
+        <MainLayout>
             <MainForm/>
             <Breadcrumb/>
             <RoadMap/>

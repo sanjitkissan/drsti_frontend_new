@@ -42,17 +42,17 @@ export default function Home() {
       fetchData();
   }, [])
 
-// console.log(uplord)
+console.log(uplord)
   return (
   <>
     <Head>
       {
         uplord.map((item:any, index:number)=>(
-          <>
+          <Fragment key={index}>
           <title>{item.attributes.title}</title>
         <meta name="description" content={item.attributes.description} />
         <meta name="keywords" content={item.attributes.keyword} />
-          </>
+          </Fragment>
         ))
       }
        

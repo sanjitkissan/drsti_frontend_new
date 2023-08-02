@@ -9,11 +9,11 @@ type prop = {
     title?: string;
     children: ReactElement | ReactElement[];
   };
-export default function MainLayout({children ,title="dRSTi"}:prop) {
+export default function MainLayout({children }:prop) {
   return (
     <>
     <Head>
-        <title>{title}</title>
+        
         <link rel="icon" href="/drsti_logo.jpg"></link>
     </Head>
     <ResponsiveNaveBar/>
