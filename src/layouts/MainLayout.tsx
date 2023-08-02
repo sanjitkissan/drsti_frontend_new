@@ -14,7 +14,7 @@ export default function MainLayout({children }:prop) {
     <>
     <Head>
         
-        <link rel="icon" href="/drsti_logo.jpg"></link>
+        <link rel="icon" href="/drsti_logo.svg"></link>
     </Head>
     <ResponsiveNaveBar/>
      <Navbar/>
