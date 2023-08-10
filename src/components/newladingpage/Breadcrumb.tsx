@@ -124,6 +124,11 @@ function Breadcrumb() {
         downloadPDF()
         setIsOpen(false);
         setPost(allData)
+        Swal.fire({
+          title: "Thank You For Downloading The Media Deck",
+          // text: "Thank you",
+          icon: "success",
+        });
       }else{
         alert("enter the valid OTP")
       }

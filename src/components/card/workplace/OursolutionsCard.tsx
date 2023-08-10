@@ -24,10 +24,10 @@ function OursolutionsCard({ item }: prop) {
         <div className="flex w-full h-full flex-col items-start justify-start p-4 gap-6">
         <h1 className="font-bold lg:text-2xl text-white  ">{item?.title}</h1>
             <p className="w-full  lg:text-lg  text-white "> {item?.content}</p>
-            <Link href={"/http://www.pedaldock.com/"}>
+            <Link href={"http://www.pedaldock.com/"} target='_blank'>
             <p className="w-full  lg:text-lg  text-white ">{item?.linkOne}</p>
             </Link>
-            <Link href={"/https://www.linkedin.com/company/biztalknet"}>
+            <Link href={"https://www.linkedin.com/company/biztalknet/"} target='_blank'>
             <p className="w-full  lg:text-lg  text-white ">{item?.linkTwo}</p>
             </Link>
         </div>

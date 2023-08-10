@@ -35,8 +35,8 @@ function Workplace() {
             </Slider>
             </div>
             <div className="w-full flex flex-col items-start p-4 justify-center gap-4">
-                <p className=" text-red-600">  Elevate the experience at your campuses.</p>
-                <h1 className="text-2xl lg:text-4xl font-bold tracking-wider uppercase ">WorkPlace</h1>
+                <p className=" text-red-600 text-2xl ">  Elevate the experience at your campuses</p>
+                <h1 className="text-2xl lg:text-4xl font-bold tracking-wider uppercase ">WorkPlace <span className='text-red-600'>marketing</span> </h1>
                 <p className="lg:text-lg  text-black">Millennials or Gen Y constitute 50% of today s working professionals and this number is projected to reach over 75% by the year 2030. This ever-evolving and aspirational workforce thrives on an ecosystem of modern workplaces with a strong sense of community and employee engagement</p>
                 <span className="w-full flex items-center justify-start gap-8">
                     {/* <span className="p-4 rounded-full border-4 border-red-600">

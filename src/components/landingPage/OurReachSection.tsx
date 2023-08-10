@@ -1,4 +1,4 @@
-import { capture, icon1, icon2, icon3, icon4 } from "@/src/assets/landinPage";
+import { capture, icon1, icon2, icon3, icon4, location_img } from "@/src/assets/landinPage";
 import React from "react";
 
 function OurReachSection() {
@@ -10,10 +10,9 @@ function OurReachSection() {
         </h1>
       </div>
       <div className="w-flex flex lg:flex-row flex-col items-center justify-center gap-2">
-        <div className="w-full h-auto lg:h-[70vh]">
-          <div className="w-full h-auto lg:h-[70vh]">
-            <img src={capture.src} alt="img" className="w-full h-full " />
-           
+        <div className="w-full h-auto ">
+          <div className="w-full h-auto ">
+            <img src={location_img.src} alt="img" className="w-full h-full " />
           </div>
         </div>
         <div className="w-full flex flex-col items-start justify-start  gap-10">

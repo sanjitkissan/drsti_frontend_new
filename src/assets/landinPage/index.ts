@@ -43,3 +43,4 @@ export {default as On_ground_activationHome3} from "./On_ground_activation12.jpg
 export {default as roadMap2} from "./roadMap2.jpg"
 export {default as BannerOne} from "./BannerOne.png"
 export {default as journeyImg} from "./journeyImg.svg"
+export {default as location_img} from "./map.gif"

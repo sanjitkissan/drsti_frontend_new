@@ -10,7 +10,7 @@ export const solutionsArr:solutionsArrType[] = [
         title:"Smart Campus Initiatives",
         content:"Curated experiences that provide networking, educational and recreational opportunities to employees, thereby attracting and retaining corporate occupiers",
         linkOne:"Pedal Dock - http://www.pedaldock.com/",
-        linkTwo:"Biztalk -https://www.linkedin.com/company/biztalknet",
+        linkTwo:"Biztalk -https://www.linkedin.com/company/biztalknet/",
         img: solutions1,
         subTitle:"smart campus Initiatives"
     },

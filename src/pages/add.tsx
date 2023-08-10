@@ -19,6 +19,7 @@ export default function Add ({title="dRSTi"}){
 
         <>
            <Head>
+           <link rel="icon" href="/drsti_logo.svg"></link>
         <title></title>
         <meta name="description" content="Meta description content goes here." />
         <meta name="keywords" content="video streaming, the rock" />

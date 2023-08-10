@@ -63,6 +63,11 @@ export default function MessageSection() {
     if (validateOtpNum == newOtp) {
       setIsOpen(false);
       setPost(allData);
+      Swal.fire({
+        title: "OTP Validated",
+        text: "Thank you",
+        icon: "success",
+      });
     } else {
       alert("enter the valid OTP");
     }
@@ -122,15 +127,14 @@ export default function MessageSection() {
         </div>
         <div className="w-full h-auto lg:h-[70vh]">
           <span className=" bg-white w-full h-full p-6 flex flex-col items-start justify-center gap-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] ">
-            <p className="text-2xl text-red-600 tracking-wider uppercase">
+            {/* <p className="text-2xl text-red-600 tracking-wider uppercase">
               {`let's`} connect
-            </p>
+            </p> */}
             <h1 className="text-2xl lg:text-4xl font-bold tracking-wide capitalize ">
-              get a free consultation
+              get free consultation
             </h1>
             <p className="lg:text-lg text-black ">
-              Maximize your {`brand's`} potential and stand out in the
-              competitive market by partnering with dRSTi .
+            Reach out & engage with working corporate professionals working in leading {`MNC's`} across India.
             </p>
             <form
               onSubmit={formik.handleSubmit}

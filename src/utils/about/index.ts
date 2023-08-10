@@ -289,6 +289,11 @@ export const OurPartnersArr:OurPartnersArrType[] =[
 
 export const whyDrsticardArr:whyDrsticardArrType[]=[
     {
+        id:3,
+        title:"Target Audience",
+        description:"Reach your key target audience efficiently with superior engagement by accessing high-frequency captive environments and achieve your marketing goals with ease in the most effective way."
+    },
+    {
         id:1,
         title:"Largest Network",
         description:"We have the largest workplace marketing network, offering brands an exceptional opportunity to promote their products to a premium audience in the leading workspaces."
@@ -298,11 +303,7 @@ export const whyDrsticardArr:whyDrsticardArrType[]=[
         title:"Effective Advertising",
         description:"Get highly effective advertising solutions by utilizing static and digital media, and by activations in premium spaces where elite audiences make critical business decisions."
     },
-    {
-        id:3,
-        title:"Target Audience",
-        description:"Reach your key target audience efficiently with superior engagement by accessing high-frequency captive environments and achieve your marketing goals with ease in the most effective way."
-    },
+   
 ]
 
 export const whyDrsticardArrOne=[

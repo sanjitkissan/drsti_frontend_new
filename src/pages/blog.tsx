@@ -42,9 +42,9 @@ function Blog() {
     </Head>
 
 
-        <MainLayout title="drsti-blog">
+        <MainLayout>
             <MainForm/>
-            <Breadcrumb/>
+            {/* <Breadcrumb/> */}
           <Newblogs/>
             
         </MainLayout>

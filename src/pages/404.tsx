@@ -10,7 +10,7 @@ router.push("/")
         },200)
     },[])
     return (
-        <section className='w-full h-screen flex flex-col items-center justify-center gap-4'>
+        <section className='w-full h-screen flex !flex-col items-center justify-center gap-4'>
             <div className='w-80, h-80 center'>
              <img src={page404.src} alt="" className='w-full h-full' />
            

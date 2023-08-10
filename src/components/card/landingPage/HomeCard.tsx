@@ -24,7 +24,7 @@ function HomeCard({ item }: prop) {
   return (
       
     <section
-      className={`w-full h-96 p-2 overflow-hidden bg-white border border-black ${
+      className={`w-full h-96 overflow-hidden bg-white border border-black ${
         item.id == 2 && "mt-48"
       } $ ${item.id == 4 && "mt-48"} ${item.id == 1 && "-mt-20"} ${
         item.id == 5 && "-mt-20"
@@ -33,7 +33,7 @@ function HomeCard({ item }: prop) {
      <Slider {...settings}>
        {
         item.img.map((items,index)=>(
-             <div className="w-full h-96"  key={items.id}>
+             <div className="w-full h-96 p-2"  key={items.id}>
             
 
               <img

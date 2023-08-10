@@ -17,7 +17,7 @@ export default function Gallery() {
     </Head>
     <MainLayout title="drsti-gallery">
       <MainForm/>
-      <Breadcrumb/>
+      {/* <Breadcrumb/> */}
       <HeroSection/>
       <NewPhoto/>
       {/* <Photos/> */}

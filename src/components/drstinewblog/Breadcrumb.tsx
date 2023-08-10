@@ -1,10 +1,10 @@
-import { BannerImg, BreadcrumbImg } from '@/src/assets/blog';
+import { BannerImg, BreadcrumbImg, blogBannerImg } from '@/src/assets/blog';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 export default function Breadcrumb(){
     return(
-        <section  className="w-full bg-center bg-cover bg-no-repeat h-auto overflow-hidden">
-             <img src={BannerImg.src} alt="" className='w-full h-full'/>
+        <section  className="w-full lg:h-[80vh] bg-center bg-cover bg-no-repeat h-auto overflow-hidden">
+             <img src={blogBannerImg.src} alt="" className='w-full h-full'/>
                 <div className="w-full h-full main-container flex flex-col lg:flex-row items-center justify-center">
                     <div className="w-full h-full flex flex-col items-start justify-center gap-6">
                         <span className="w-full flex items-center justify-start gap-4">
