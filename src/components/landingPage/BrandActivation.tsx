@@ -21,10 +21,10 @@ export default function Brandactivation() {
           <h1 className='text-2xl lg:text-4xl  font-bold uppercase ml-20 text-red-600'>activation</h1>
       </span>
       <div className='w-full lg:w-4/5 flex flex-col items-start  justify-center gap-4'>
-          <h1 className='lg:text-2xl text-black '>Experiential Marketing</h1>
+          <h1 className='lg:text-2xl text-black '>On-ground Engagements </h1>
           <div className='w-full flex item-end justify-start gap-4'>
               <span className='w-6 h-auto bg-red-600'></span>
-              <p className='text-black lg:text-lg'>Build awareness and engagement with a brand through experiential campaigns and events that directly engage and interact with potential consumers. The goal of brand activation is to create a lasting impression by encouraging them to participate in an immersive and memorable experience that is aligned with the brand values and messaging.</p>
+              <p className='text-black lg:text-lg'>Experiential marketing that involves one-on-one interaction with the TG, sales kiosks, product launches, sampling activities, and other similar promotional events which can be hosted within the campuses</p>
           </div>
       </div>
     </div>

@@ -98,7 +98,7 @@ console.log(activationData)
         >
           <h1 className="text-lg text-center w-full capitalize">
             {" "}
-            digital media{" "}
+            digital OOH{" "}
           </h1>
         </span>
         <span
@@ -111,7 +111,7 @@ console.log(activationData)
         >
           <h1 className="text-lg text-center w-full capitalize">
             {" "}
-            activation spaces{" "}
+            brand activation{" "}
           </h1>
         </span>
       </div>

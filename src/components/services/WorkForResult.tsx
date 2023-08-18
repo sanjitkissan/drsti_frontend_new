@@ -16,25 +16,26 @@ export default function WorkForResult(){
                 </div>
             </div>
             <div className="w-full flex flex-col items-start p-4 justify-center gap-4">
-                <p className="lg:text-xl tracking-wider  text-red-600">Peer-to-Peer Interactions</p>
+                {/* <p className="lg:text-xl tracking-wider  text-red-600">Peer-to-Peer Interactions</p> */}
                 <h1 className="text-2xl lg:text-4xl font-bold tracking-wider uppercase">Connect Your Brand with<br/><span className=" text-red-600"> High-Value Decision Makers</span></h1>
-                <p className="lg:text-lg  text-black">With dRSTi’s extensive network reach 4.5 million+ corporate professionals working in business hubs. We understand your brand objectives and work collaboratively with you to conceptualize, plan, and execute tailor-made brand engagements within the corporate parks.</p>
+                <p className="lg:text-lg  text-black">Reach out and actively engage with working corporate professionals across 8 metro cities, working in 500+ MNCs with over 1500+ engagement touchpoints across the country. Benefit from -
+</p>
                 <span className="w-full flex items-center justify-start gap-8">
                     <span className="p-4 rounded-full border-4 border-red-600">
-                        <h1 className="text-2xl font-bold">3.5d</h1>
+                        <h1 className="text-2xl font-bold">3.5days</h1>
                     </span>
                     <span>
-                        <h1 className="lg:text-2xl text-red-600 ">Business Professionals</h1>
-                        <p className=" text-black lg:text-lg">is the average number of days corporate professionals spent in the office each week.</p>
+                        <h1 className="lg:text-2xl text-red-600 ">Working Professionals</h1>
+                        <p className=" text-black lg:text-lg">is the average number of days corporates work from the office each week.</p>
                     </span>
                 </span>
                 <span className="w-full flex items-center justify-start gap-8">
                     <span className="p-4 rounded-full border-4 border-red-600">
-                        <h1 className="text-2xl font-bold">96%</h1>
+                        <h1 className="text-2xl font-bold">2. 8 hours </h1>
                     </span>
                     <span>
-                        <h1 className="lg:text-2xl  text-red-600">Office Employees</h1>
-                        <p className=" text-black lg:text-lg">visit their office each week making it a premium place for brand promotion.</p>
+                        <h1 className="lg:text-2xl  text-red-600">High Dwell Time</h1>
+                        <p className=" text-black lg:text-lg">Captive audiences who are actively seeking newer engagements.</p>
                     </span>
                 </span>
                 <span className="w-full flex items-center justify-start gap-8">
@@ -42,8 +43,8 @@ export default function WorkForResult(){
                         <h1 className="text-2xl font-bold">39y</h1>
                     </span>
                     <span>
-                        <h1 className="lg:text-2xl  text-red-600">Average Age</h1>
-                        <p className=" text-black lg:text-lg">Our customer base is always growing, because the result of our work brings money.</p>
+                        <h1 className="lg:text-2xl  text-red-600">Highly networked and Influential </h1>
+                        <p className=" text-black lg:text-lg">Peer-to-peer interactions and strong community within offices.</p>
                     </span>
                 </span>
             </div>

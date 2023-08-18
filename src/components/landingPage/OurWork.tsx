@@ -11,10 +11,10 @@ export default function OurWork() {
             <h1 className='text-2xl lg:text-4xl  font-bold uppercase ml-20 text-red-600 '>Visibility</h1>
         </span>
         <div className='w-full lg:w-1/2 flex flex-col item items-start justify-center gap-4'>
-            <h1 className='lg:text-2xl text-black capitalize '>Static & Digital Media</h1>
+            <h1 className='lg:text-2xl text-black capitalize '>Static & Digital OOH Media</h1>
             <div className='w-full flex item-center justify-start gap-4'>
                 <span className='w-6 h-auto bg-red-600'></span>
-                <p className='text-black  lg:text-lg'>Advertising services offer companies in office spaces a unique opportunity to enhance their branding in front of key decision-makers. Displayed in high-traffic areas such as lobbies, elevators, and common areas, companies can increase their visibility in front of the elite audience in the workplace environment.</p>
+                <p className='text-black  lg:text-lg'>Media assets deployed at strategic locations within the campus like Food courts, Lobbies, Elevators, and Recreation areas where employees stop, notice, and actively engage with the brand communication</p>
             </div>
         </div>
       </div>

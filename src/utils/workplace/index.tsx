@@ -26,7 +26,7 @@ export const solutionsArr:solutionsArrType[] = [
     {
         id:3,
         title:"Advertising Media Spaces",
-        content:"Curated experiences that provide networking, educational and recreational opportunities to employees, thereby attracting and retaining corporate occupiers",       
+        content:"Use of passive spaces at high footfall locations within the campus to generate advertising rental revenue to campus management",       
         linkOne:"",
         linkTwo:"",
         img:solutions3,
